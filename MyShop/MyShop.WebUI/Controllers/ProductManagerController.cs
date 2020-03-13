@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using MyShop.Core.Models;
 using MyShop.Core.ViewModels;
 using MyShop.DataAccess.InMemory;
-
+//sdf
 namespace MyShop.WebUI.Controllers
 {
     public class ProductManagerController : Controller
