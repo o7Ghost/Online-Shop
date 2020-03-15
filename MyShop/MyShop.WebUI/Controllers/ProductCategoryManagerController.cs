@@ -15,7 +15,7 @@ namespace MyShop.WebUI.Controllers
 
         public ProductCategoryManagerController(IRepository<ProductCategory> context)
         {
-            this.context = new InMemoryRepository<ProductCategory>();
+            this.context = context;
 
         }
         // GET: ProductManager
