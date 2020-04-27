@@ -18,11 +18,15 @@ namespace MyShop.WebUI.Tests.Controllers
             // Arrange
             //HomeController controller = new HomeController();
 
-            // Act
+            //// Act
             //ViewResult result = controller.Index() as ViewResult;
 
-            // Assert
+            //// Assert
             //Assert.IsNotNull(result);
         }
+
+        
+
+       
     }
 }

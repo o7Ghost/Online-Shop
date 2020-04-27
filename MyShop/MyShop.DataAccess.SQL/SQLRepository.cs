@@ -1,4 +1,4 @@
-﻿using MyShop.Core.Constract;
+﻿using MyShop.Core.Contracts;
 using MyShop.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -14,8 +14,7 @@ namespace MyShop.DataAccess.SQL
         internal DataContext context;
         internal DbSet<T> dbSet;
 
-        public SQLRepository(DataContext context)
-        {
+        public SQLRepository(DataContext context) {
             this.context = context;
             this.dbSet = context.Set<T>();
         }
